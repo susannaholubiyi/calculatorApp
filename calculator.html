@@ -12,8 +12,6 @@
     <div  style="color:#000;" class="main-container">
         <input id="display" type="text" readonly>
         <div class="buttons">
-            <button class="button" onclick="clearDisplay()">C</button>
-            <button class="button" onclick="deleteButton()">Del</button>
             <button class="button" onclick="addToScreen('7')">7</button>
             <button class="button" onclick="addToScreen('8')">8</button>
             <button class="button" onclick="addToScreen('9')">9</button>
@@ -28,8 +26,10 @@
             <button class="button" onclick="addToScreen('-')">-</button>
             <button class="button" onclick="addToScreen('0')">0</button>
             <button class="button" onclick="addToScreen('.')">.</button>
-            <button class="button" onclick="calculateResult()">=</button>
+            <button style=" color: darkgreen; font-weight: bolder" class="button" onclick="calculateResult()">=</button>
             <button class="button" onclick="addToScreen('+')">+</button>
+            <button style="color: brown; font-weight: bold" class="button" onclick="clearDisplay()">C</button>
+            <button style="color: red; font-weight: bold" class="button" onclick="deleteButton()">Del</button>
         </div>
     </div>
 
